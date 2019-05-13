@@ -1,0 +1,14 @@
+server:
+  port: 8071
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test
+    username: root
+    password: root
+
+mybatis:
+  type-aliases-package: com.demo.User.User
+  mapper-locations:
+  - mapper/*
